@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 70px;
+    overflow-x: hidden;
+    margin: 0;
+    background-image: url('../img/pattern.jpg');
+    background-repeat: repeat;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 2px 3px 2px 3px;
+}
+
+
+header nav {
+    flex: .3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+section {
+    margin-bottom: 10px;
+    width: 70vw;
+    min-height: 90vh;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#article-list div {
+    border-bottom: 2px solid #5a5a5a;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
