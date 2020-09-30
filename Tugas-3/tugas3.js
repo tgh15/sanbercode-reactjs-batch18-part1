@@ -6,7 +6,7 @@ var kataKedua = "senang";
 var kataKetiga = "belajar";
 var kataKeempat = "javascript";
 
-console.log(`${kataPertama} ${kataKedua} ${kataKetiga} ${kataKeempat.toUpperCase()}`)
+console.log(`${kataPertama} ${kataKedua.charAt(0).toUpperCase() + kataKedua.slice(1)} ${kataKetiga} ${kataKeempat.toUpperCase()}`)
 
 
 // ---------------soal 2--------------- //
